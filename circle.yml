@@ -1,5 +1,5 @@
 test:
   override:
-    - ls -la > $CIRCLE_ARTIFACTS/dir_structure.log
+    - ls -la app/build > $CIRCLE_ARTIFACTS/dir_structure.log
     - ./gradlew assembleRelease
-    - cp -r AndroidApp/build/outputs/apk $CIRCLE_ARTIFACTS
+    - cp -r app/build/outputs/apk $CIRCLE_ARTIFACTS
