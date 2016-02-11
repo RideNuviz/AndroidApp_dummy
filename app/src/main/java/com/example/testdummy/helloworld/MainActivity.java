@@ -60,4 +60,12 @@ public class MainActivity extends AppCompatActivity {
         String message = "Click count: " + count;
         counterText.setText(message);
     }
+
+    public void resetCounter(View view) {
+        count = 0;
+
+        EditText counterText = (EditText) findViewById(R.id.textCounter);
+        String message = "Click count: " + count;
+        counterText.setText(message);
+    }
 }
