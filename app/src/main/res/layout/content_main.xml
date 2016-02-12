@@ -11,6 +11,7 @@
     <EditText android:id="@+id/textCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:editable="false"
         android:hint="@string/hello_world"/>
 
     <Button android:id="@+id/buttonFirst"
@@ -18,5 +19,11 @@
         android:layout_height="wrap_content"
         android:text="@string/press_me"
         android:onClick="countMore"/>
+
+    <Button android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:onClick="resetCounter"/>
 
 </LinearLayout>
