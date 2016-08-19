@@ -1,5 +1,7 @@
 package com.example.testdummy.helloworld;
 
+import android.content.Context;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,10 +16,12 @@ public class MainActivity extends AppCompatActivity {
 
     public int count = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
     }
 
