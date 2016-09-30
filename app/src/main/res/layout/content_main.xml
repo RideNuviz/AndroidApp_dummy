@@ -26,4 +26,11 @@
         android:text="@string/reset"
         android:onClick="resetCounter"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/another_text"
+        android:id="@+id/buttonAnother"
+        android:longClickable="true" />
+
 </LinearLayout>
