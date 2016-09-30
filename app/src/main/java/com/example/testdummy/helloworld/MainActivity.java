@@ -62,4 +62,10 @@ public class MainActivity extends AppCompatActivity {
         String message = "Click count: " + count;
         counterText.setText(message);
     }
+
+    public void anotherText(View view) {
+        EditText counterText = (EditText)findViewById(R.id.textCounter);
+        String message = "another text";
+        counterText.setText(message);
+    }
 }
