@@ -31,6 +31,8 @@
         android:layout_height="wrap_content"
         android:text="@string/another_text"
         android:id="@+id/buttonAnother"
-        android:longClickable="true" />
+        android:longClickable="true"
+        android:clickable="true"
+        android:onClick="anotherText" />
 
 </LinearLayout>

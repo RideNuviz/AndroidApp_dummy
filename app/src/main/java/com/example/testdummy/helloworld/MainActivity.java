@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void anotherText(View view) {
         EditText counterText = (EditText)findViewById(R.id.textCounter);
-        String message = "another text";
+        String message = getString(R.string.another_text);
         counterText.setText(message);
     }
 }
